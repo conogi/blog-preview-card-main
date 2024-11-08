@@ -1,0 +1,38 @@
+/** 
+- Yellow: hsl(47, 88%, 63%)
+
+- White: hsl(0, 0%, 100%)
+
+- Gray 500: hsl(0, 0%, 42%)
+- Gray 950: hsl(0, 0%, 7%)
+**/
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+}
+
+#previewCard {
+    background-color: white;
+    width: 30%;
+    margin: 5% auto;
+    padding: 2%;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+}
+
+.pictureBox {
+    justify-content: center;
+}
+
+.pictureBox img {
+    width: 100%;
+    height: auto;
+}
